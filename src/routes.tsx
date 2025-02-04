@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 import { RoutesUrls } from './utils/enums/routes-url'
 import Home from './pages/home'
 import Test from './pages/test'
-import Error from './pages/error'
+import Error from './pages/error-generic'
 
 export default function RouterProvider() {
   const routes = [
@@ -15,7 +15,7 @@ export default function RouterProvider() {
       element: <Test />
     },
     {
-      path: '*',
+      path: RoutesUrls.ERROR_GENERIC,
       element: <Error />
     }
   ]

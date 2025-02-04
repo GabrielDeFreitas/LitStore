@@ -2,7 +2,7 @@ import { TitleDescriptionWrapperProps } from './type'
 
 export function TitleDescriptionWrapper({ title, description }: TitleDescriptionWrapperProps) {
   return (
-    <section className="py-[70px] dark:bg-dark">
+    <section className="py-[70px]">
       <div className="mx-auto px-4 sm:container">
         <div className="border-b border-stroke">
           <h2 className="mb-2 text-2xl font-semibold text-dark">{title}</h2>
