@@ -1,3 +1,10 @@
+import { TitleDescriptionWrapper } from '../../components/title-description-wrapper'
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Home page!</h1>
+  return (
+    <TitleDescriptionWrapper
+      title="Home page"
+      description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'}
+    />
+  )
 }
