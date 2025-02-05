@@ -8,9 +8,9 @@ dependencies:
   '@tailwindcss/vite':
     specifier: ^4.0.3
     version: 4.0.3(vite@6.0.11)
-  lucide:
+  lucide-react:
     specifier: ^0.474.0
-    version: 0.474.0
+    version: 0.474.0(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -3254,8 +3254,12 @@ packages:
       yallist: 3.1.1
     dev: true
 
-  /lucide@0.474.0:
-    resolution: {integrity: sha512-2rfORNh9fzhCUKu0ciE48ogR1Zg7hleABLO5MBF06vOb4esTtE8FbfQJiC+wveiNFoeojWKz6zXheUToRR5uIg==}
+  /lucide-react@0.474.0(react@18.3.1):
+    resolution: {integrity: sha512-CmghgHkh0OJNmxGKWc0qfPJCYHASPMVSyGY8fj3xgk4v84ItqDg64JNKFZn5hC6E0vHi6gxnbCgwhyVB09wQtA==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    dependencies:
+      react: 18.3.1
     dev: false
 
   /lz-string@1.5.0:
